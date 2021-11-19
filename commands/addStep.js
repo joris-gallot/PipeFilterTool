@@ -3,8 +3,6 @@ const path = require("path");
 const { exit } = require("process");
 const PROJECT_TEST_TEMPLATE_PATH = path.resolve(__dirname, "..");
 
-const BASE_FILTER = "module.exports = {}";
-
 module.exports = async (stepId, filterName, nextId) => {
   const configPath = PROJECT_TEST_TEMPLATE_PATH + "/config-filters.json";
   const config = require(configPath);
