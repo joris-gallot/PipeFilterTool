@@ -1,5 +1,7 @@
 # PipeFilterTool
 
+Auteurs: Quentin Duchesne, Alexis Coinet et Joris Gallot
+
 # Introduction
 
 Ce framework permet l'éxecution de plusieurs opérations par le biais de filtre qui execute chacun une opération. L'utilisateur peut créer ses propres filtres et chacun des filtres est dépendant du précédent. Il permet donc d'automatiser plusieurs fonctions à la chaine.
