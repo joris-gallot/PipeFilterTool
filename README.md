@@ -17,7 +17,7 @@ npm install -g ppft
 Ensuite pour créer un nouveau projet, il faut utiliser la commande :
 
 ```bash
-ppft new <project-name>
+ppft new project-name
 ```
 
 # API
@@ -77,23 +77,23 @@ Une étape contient :
 Pour la création d'un nouveau filtre :
 
 ```bash
-ppft add_filter <filter>
+ppft add_filter filter
 ```
 
 Pour la suppression d'un filtre :
 
 ```bash
-ppft del_filter <filter>
+ppft del_filter filter
 ```
 
 Pour l'ajout d'une étape dans le fichier de configuration :
 
 ```bash
-ppft add_step <step-id> <filter-name> [next-id]
+ppft add_step step-id filter-name next-id
 ```
 
 Pour la suppression d'une étape dans le fichier de configuration :
 
 ```bash
-ppft del_step <step-id>
+ppft del_step step-id
 ```
