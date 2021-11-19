@@ -1,18 +1,24 @@
 # PipeFilterTool
 
-# Introdcution
+🤡
 
-Ce framework permet l'éxecution de plusieurs opérations par le biais de filtre qui execute chacun une opération. L'utilisateur peut créer ses propres filtres et chacun des filtres est dépendant du précédent. Il permet donc d'automatiser plusieurs fonction à la chaine.
+# Introduction
+
+Ce framework permet l'éxecution de plusieurs opérations par le biais de filtre qui execute chacun une opération. L'utilisateur peut créer ses propres filtres et chacun des filtres est dépendant du précédent. Il permet donc d'automatiser plusieurs fonctions à la chaine.
 
 # Getting started
 
 Il faut commencer par faire la commande :
 
-- npm install
+```bash
+npm install -g ppft
+```
 
 Ensuite pour créer un nouveau projet, il faut utiliser la commande :
 
-- new `<project-name>`
+```bash
+ppft new <project-name>
+```
 
 # API
 
@@ -70,16 +76,24 @@ Une étape contient :
 
 Pour la création d'un nouveau filtre :
 
-- add_filter `<filter>`
+```bash
+ppft add_filter <filter>
+```
 
 Pour la suppression d'un filtre :
 
-- del_filter `<filter>`
+```bash
+ppft del_filter <filter>
+```
 
 Pour l'ajout d'une étape dans le fichier de configuration :
 
-- add_step `<step-id>` `<filter-name>` `[next-id]`
+```bash
+ppft add_step <step-id> <filter-name> [next-id]
+```
 
 Pour la suppression d'une étape dans le fichier de configuration :
 
-- del_step `<step-id>`
+```bash
+ppft del_step <step-id>
+```
