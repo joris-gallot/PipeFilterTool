@@ -55,6 +55,7 @@ Une étape contient :
 | Code   | Description                                                    |
 | ------ | -------------------------------------------------------------- |
 | 345678 | Fichier `filter` non valide                                    |
+| 344478 | `Filter` Doit retourner une fonction                           |
 | 345765 | Le fichier de config doit contenir des steps                   |
 | 345745 | L'attribut `next` doit faire référence a un step               |
 | 345905 | L'attribut `params` doit être de type `array`                  |
